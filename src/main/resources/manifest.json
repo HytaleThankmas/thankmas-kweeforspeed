@@ -1,0 +1,24 @@
+{
+    "Group": "com.Kweeforspeed",
+    "Name": "kweeforspeed",
+    "Version": "0.0.1",
+    "Description": "Race minigame for Hytale Thankmas 2026",
+    "Authors": [
+        {
+            "Name": "NALO"
+        }
+    ],
+    "Website": "",
+    "ServerVersion": ">=0.6.8 <0.7.0",
+    "Dependencies": {
+        "Hytale:AssetModule": "*",
+        "Hytale:EntityModule": "*"
+    },
+    "OptionalDependencies": {},
+    "DisabledByDefault": false,
+    "Main": "com.kweeforspeed.modid.Main",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}

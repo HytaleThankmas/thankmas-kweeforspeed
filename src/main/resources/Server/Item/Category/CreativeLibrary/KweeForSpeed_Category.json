@@ -1,0 +1,14 @@
+{
+  "Icon": "Icons/ItemCategories/Natural-Fire.png",
+  "Order": 6,
+  "InfoDisplayMode": "None",
+  "Name": "KweeForSpeed",
+  "Children": [
+    {
+      "Id": "KweeForSpeed",
+      "Name": "KweeForSpeed",
+      "Icon": "Icons/ItemCategories/Build-Walls.png",
+      "InfoDisplayMode": "None"
+    }
+  ]
+}

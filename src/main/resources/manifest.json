@@ -14,7 +14,9 @@
         "Hytale:AssetModule": "*",
         "Hytale:EntityModule": "*"
     },
-    "OptionalDependencies": {},
+    "OptionalDependencies": {
+        
+    },
     "DisabledByDefault": false,
     "Main": "com.kweeforspeed.modid.Main",
     "IncludesAssetPack": true,

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Build_White_Roof.name"
+    "Name": "Template Ramp"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -116,10 +116,10 @@
       "HorizontalSpeedMultiplier": 10,
       "Drag": 0.999,
       "Friction": 0.01,
-      "JumpForceMultiplier": 2.5
+      "JumpForceMultiplier": 1.5
     },
-    "RequiresAlphaBlending": false,
-    "HitboxType": "KweeForSpeed_Ramp_Hitbox"
+    "HitboxType": "KweeForSpeed_Ramp_Hitbox",
+    "CubeShadingMode": "Flat"
   },
   "Tags": {
     "Type": [

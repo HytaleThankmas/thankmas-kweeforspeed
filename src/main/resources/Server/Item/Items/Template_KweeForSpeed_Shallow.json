@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Build_White_Roof_Shallow.name"
+    "Name": "Template Shallow"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -106,8 +106,10 @@
       "HorizontalSpeedMultiplier": 10,
       "Drag": 0.999,
       "Friction": 0.01,
-      "JumpForceMultiplier": 2.5
-    }
+      "JumpForceMultiplier": 1.5
+    },
+    "CubeShadingMode": "Flat",
+    "RequiresAlphaBlending": false
   },
   "Tags": {
     "Type": [

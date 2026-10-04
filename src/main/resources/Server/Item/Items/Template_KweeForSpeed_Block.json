@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Build_White_Cube.name"
+    "Name": "Template Block"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -26,9 +26,9 @@
     "CubeShadingMode": "Standard",
     "TextureComputedColor": "#E1ECF1",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 2,
+      "HorizontalSpeedMultiplier": 1.5,
       "Drag": 0.99,
-      "Friction": 0.015,
+      "Friction": 0.15,
       "JumpForceMultiplier": 1.5
     }
   },

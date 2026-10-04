@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Build_White_Roof_Steep.name"
+    "Name": "Template Steep"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -105,8 +105,15 @@
       "HorizontalSpeedMultiplier": 10,
       "Drag": 0.999,
       "Friction": 0.01,
-      "JumpForceMultiplier": 2.5
-    }
+      "JumpForceMultiplier": 1.5,
+      "DisableAutoStep": false,
+      "TerminalVelocityModifier": 10,
+      "IsBouncy": true,
+      "IsClimbable": false,
+      "BounceVelocity": 1.1
+    },
+    "CubeShadingMode": "Flat",
+    "RequiresAlphaBlending": true
   },
   "Tags": {
     "Type": [

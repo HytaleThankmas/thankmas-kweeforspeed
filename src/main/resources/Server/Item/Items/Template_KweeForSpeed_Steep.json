@@ -13,10 +13,9 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Steep.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Roofs/Dev_Roof_Texture/Dev_White.png",
+        "Texture": "Items/Blocks/Test_Steep_Texture.png",
         "Weight": 1
       }
     ],
@@ -113,7 +112,6 @@
       "BounceVelocity": 1.1
     },
     "CubeShadingMode": "Flat",
-    "RequiresAlphaBlending": true,
     "Interactions": {
       "CollisionEnter": {
         "Interactions": [
@@ -130,7 +128,11 @@
           }
         ]
       }
-    }
+    },
+    "CustomModel": "Items/Blocks/Test_Steep_Model.blockymodel",
+    "Tint": [
+      "#ff6969"
+    ]
   },
   "Tags": {
     "Type": [

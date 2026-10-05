@@ -13,10 +13,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Dev_Roof.blockymodel",
+    "CustomModel": "Items/Blocks/Test_Ramp_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Roofs/Dev_Roof_Texture/Dev_White.png",
+        "Texture": "Items/Blocks/Test_Ramp_Texture.png",
         "Weight": 1
       }
     ],
@@ -136,7 +136,10 @@
           }
         ]
       }
-    }
+    },
+    "Tint": [
+      "#ffb64d"
+    ]
   },
   "Tags": {
     "Type": [

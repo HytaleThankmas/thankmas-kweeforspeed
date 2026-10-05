@@ -53,43 +53,6 @@
       },
       "KeepLoaded": false,
       "Name": "VOID"
-    },
-    "6f6235cd-8c9d-473f-a96a-abc314eb865e": {
-      "Position": {
-        "X": 0.0,
-        "Y": 100.0,
-        "Z": 0.0
-      },
-      "Shape": {
-        "Type": "Box",
-        "Min": {
-          "X": -250.0,
-          "Y": 0.0,
-          "Z": -250.0
-        },
-        "Max": {
-          "X": 250.0,
-          "Y": 500.0,
-          "Z": 250.0
-        }
-      },
-      "Rules": [
-        {
-          "Type": "NoDamage",
-          "EntityFilter": "All"
-        }
-      ],
-      "TargetTypes": [
-        "Player"
-      ],
-      "Enabled": true,
-      "Color": {
-        "X": 0.0,
-        "Y": 0.9843137264251709,
-        "Z": 1.0
-      },
-      "KeepLoaded": false,
-      "Name": "KweeForSpeed"
     }
   }
 }

@@ -23,7 +23,7 @@
     "ParticleColor": "#e7eaeb",
     "BlockSoundSetId": "Soft",
     "PhysicalMaterialId": "Wool",
-    "CubeShadingMode": "Standard",
+    "CubeShadingMode": "Flat",
     "TextureComputedColor": "#E1ECF1",
     "MovementSettings": {
       "HorizontalSpeedMultiplier": 1.5,
@@ -47,7 +47,10 @@
           }
         ]
       }
-    }
+    },
+    "Tint": [
+      "#5697ff"
+    ]
   },
   "Tags": {
     "Type": [

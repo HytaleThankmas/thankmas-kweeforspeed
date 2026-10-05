@@ -13,10 +13,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Shallow.blockymodel",
+    "CustomModel": "Items/Blocks/Test_Shallow_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Roofs/Dev_Roof_Texture/Dev_White.png",
+        "Texture": "Items/Blocks/Test_Shallow_Texture.png",
         "Weight": 1
       }
     ],
@@ -103,13 +103,13 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 10,
-      "Drag": 0.999,
-      "Friction": 0.01,
-      "JumpForceMultiplier": 1.5
+      "HorizontalSpeedMultiplier": 1.5,
+      "Drag": 1.1,
+      "Friction": 0,
+      "IsBouncy": true,
+      "BounceVelocity": -99999
     },
     "CubeShadingMode": "Flat",
-    "RequiresAlphaBlending": false,
     "Interactions": {
       "CollisionEnter": {
         "Interactions": [
@@ -126,7 +126,10 @@
           }
         ]
       }
-    }
+    },
+    "Tint": [
+      "#fdff60"
+    ]
   },
   "Tags": {
     "Type": [

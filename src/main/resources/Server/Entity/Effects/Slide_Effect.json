@@ -1,0 +1,12 @@
+{
+  "ApplicationEffects": {
+    "EntityAnimationId": "KFS_Slide",
+    "HorizontalSpeedMultiplier": 5
+  },
+  "OverlapBehavior": "Overwrite",
+  "ApplyConditions": [
+    {
+      "Id": "Sprinting"
+    }
+  ]
+}

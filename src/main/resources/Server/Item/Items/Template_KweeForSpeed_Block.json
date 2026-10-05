@@ -4,7 +4,7 @@
   },
   "ItemLevel": 10,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Build_White_Cube.png",
+  "Icon": "Icons/ItemsGenerated/Template_KweeForSpeed_Block.png",
   "PlayerAnimationsId": "Block",
   "Set": "Build",
   "BlockType": {
@@ -29,23 +29,30 @@
       "HorizontalSpeedMultiplier": 1.5,
       "Drag": 0.99,
       "Friction": 0.15,
-      "JumpForceMultiplier": 1.5
+      "JumpForceMultiplier": 1.5,
+      "IsClimbable": true,
+      "ClimbUpSpeedMultiplier": 5,
+      "ClimbDownSpeedMultiplier": 5,
+      "ClimbLateralSpeedMultiplier": 5,
+      "IsBouncy": false
     },
     "Interactions": {
-      "CollisionEnter": {
+      "Collision": {
         "Interactions": [
           {
             "Type": "ApplyEffect",
             "Effects": {},
             "EffectId": {
-              "ApplicationEffects": {
-                "EntityAnimationId": "Roll"
-              },
-              "OverlapBehavior": "Overwrite"
+              "OverlapBehavior": "Overwrite",
+              "Parent": "Slide_Effect",
+              "Duration": 0.5
             },
             "OnItemChangeBehavior": "Finish"
           }
-        ]
+        ],
+        "Cooldown": {
+          "Cooldown": 0.25
+        }
       }
     },
     "Tint": [

@@ -113,12 +113,11 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 10,
+      "HorizontalSpeedMultiplier": 9.75,
       "Drag": 0.999,
-      "Friction": 0.01,
+      "Friction": 0.025,
       "JumpForceMultiplier": 1.5,
-      "IsClimbable": false,
-      "IsBouncy": false
+      "DisableAutoStep": false
     },
     "HitboxType": "KweeForSpeed_Ramp_Hitbox",
     "CubeShadingMode": "Flat",

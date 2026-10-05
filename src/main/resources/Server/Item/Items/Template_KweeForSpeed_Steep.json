@@ -101,14 +101,11 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 10,
+      "HorizontalSpeedMultiplier": 9.75,
       "Drag": 0.999,
-      "Friction": 0.01,
+      "Friction": 0.025,
       "JumpForceMultiplier": 1.5,
-      "DisableAutoStep": false,
-      "TerminalVelocityModifier": 10,
-      "IsClimbable": false,
-      "IsBouncy": false
+      "DisableAutoStep": false
     },
     "CubeShadingMode": "Flat",
     "Interactions": {

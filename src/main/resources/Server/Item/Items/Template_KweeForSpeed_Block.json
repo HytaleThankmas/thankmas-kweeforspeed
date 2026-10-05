@@ -26,15 +26,10 @@
     "CubeShadingMode": "Flat",
     "TextureComputedColor": "#E1ECF1",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 1.5,
-      "Drag": 0.99,
-      "Friction": 0.15,
-      "JumpForceMultiplier": 1.5,
-      "IsClimbable": true,
-      "ClimbUpSpeedMultiplier": 5,
-      "ClimbDownSpeedMultiplier": 5,
-      "ClimbLateralSpeedMultiplier": 5,
-      "IsBouncy": false
+      "HorizontalSpeedMultiplier": 1.75,
+      "Drag": 0.999,
+      "Friction": 0.025,
+      "JumpForceMultiplier": 1.5
     },
     "Interactions": {
       "Collision": {

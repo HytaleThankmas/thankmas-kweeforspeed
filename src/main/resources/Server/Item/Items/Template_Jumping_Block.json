@@ -1,0 +1,106 @@
+{
+  "TranslationProperties": {
+    "Name": "Template Jumping Block"
+  },
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "SeaLife",
+    "BlockParticleSetId": "Dust",
+    "Textures": [
+      {
+        "Weight": 60,
+        "Sides": "BlockTextures/Plant_Mushroom_Block_Red_Top.png",
+        "Down": "BlockTextures/Plant_Mushroom_Block_Red_Bot.png",
+        "Up": "BlockTextures/Plant_Mushroom_Block_Red_Top.png"
+      },
+      {
+        "Up": "BlockTextures/Plant_Mushroom_Block_Red_Top_2.png",
+        "Down": "BlockTextures/Plant_Mushroom_Block_Red_Bot.png",
+        "Sides": "BlockTextures/Plant_Mushroom_Block_Red_Top_3.png",
+        "Weight": 20
+      },
+      {
+        "Up": "BlockTextures/Plant_Mushroom_Block_Red_Top_3.png",
+        "Down": "BlockTextures/Plant_Mushroom_Block_Red_Bot.png",
+        "Sides": "BlockTextures/Plant_Mushroom_Block_Red_Top_2.png",
+        "Weight": 20
+      }
+    ],
+    "ParticleColor": "#cca567",
+    "BlockSoundSetId": "Mushroom",
+    "MovementSettings": {
+      "HorizontalSpeedMultiplier": 3.5
+    },
+    "Interactions": {
+      "Collision": {
+        "Interactions": [
+          {
+            "Type": "ApplyForce",
+            "Direction": {
+              "Y": 1
+            },
+            "Force": 25,
+            "Effects": {
+              "WorldSoundEventId": "Boing_SFX",
+              "LocalSoundEventId": "Boing_SFX",
+              "Particles": [
+                {
+                  "SystemId": "Block_Land_Hard_Dust",
+                  "Color": "#ff7e7e",
+                  "Scale": 2,
+                  "DetachedFromModel": true
+                }
+              ]
+            }
+          },
+          {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "ApplicationEffects": {
+                "Particles": [
+                  {
+                    "SystemId": "Dust_Sparkles_Fine",
+                    "Color": "#ff0000",
+                    "Scale": 2,
+                    "DetachedFromModel": false,
+                    "TargetEntityPart": "Self",
+                    "PositionOffset": {
+                      "Y": 3
+                    }
+                  }
+                ],
+                "EntityAnimationId": "Roll"
+              }
+            }
+          }
+        ],
+        "Cooldown": {
+          "Cooldown": 0.5
+        }
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Mushrooms"
+    },
+    {
+      "Id": "Vegetables"
+    }
+  ],
+  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Mushroom_Block_Red.png",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Crop"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage"
+}

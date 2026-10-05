@@ -53,6 +53,60 @@
       },
       "KeepLoaded": false,
       "Name": "VOID"
+    },
+    "696abe8b-9667-4f39-9581-809f91ec7161": {
+      "Position": {
+        "X": 0.0,
+        "Y": 50.0,
+        "Z": 0.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -457.0,
+          "Y": 0.0,
+          "Z": -457.0
+        },
+        "Max": {
+          "X": 457.0,
+          "Y": 500.0,
+          "Z": 457.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "SetVelocity",
+          "Event": "TICK",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.15,
+            "Z": 0.0
+          },
+          "Additive": true,
+          "RelativeMode": "Absolute"
+        },
+        {
+          "Type": "SetVelocity",
+          "Event": "TICK",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "Additive": true,
+          "RelativeMode": "HorizontalFacing"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Name": "KFS"
     }
   }
 }

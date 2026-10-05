@@ -27,10 +27,10 @@
   },
   "ChunkConfig": {},
   "IsTicking": true,
-  "IsBlockTicking": true,
+  "IsBlockTicking": false,
   "IsPvpEnabled": false,
-  "IsFallDamageEnabled": true,
-  "IsGameTimePaused": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": true,
   "GameTime": "0001-01-01T05:30:00Z",
   "ForcedWeather": "KweeForSpeed_Weather",
   "ClientEffects": {
@@ -43,7 +43,7 @@
     "SunshaftScaleFactor": 4.0
   },
   "RequiredPlugins": {},
-  "IsSpawningNPC": true,
+  "IsSpawningNPC": false,
   "IsBlockSpawnersEnabled": true,
   "IsSpawnMarkersEnabled": true,
   "IsAllNPCFrozen": false,

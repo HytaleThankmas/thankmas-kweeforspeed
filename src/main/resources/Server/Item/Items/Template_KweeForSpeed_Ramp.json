@@ -119,7 +119,24 @@
       "JumpForceMultiplier": 1.5
     },
     "HitboxType": "KweeForSpeed_Ramp_Hitbox",
-    "CubeShadingMode": "Flat"
+    "CubeShadingMode": "Flat",
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "ApplyEffect",
+            "Effects": {},
+            "EffectId": {
+              "ApplicationEffects": {
+                "EntityAnimationId": "Roll"
+              },
+              "OverlapBehavior": "Overwrite"
+            },
+            "OnItemChangeBehavior": "Finish"
+          }
+        ]
+      }
+    }
   },
   "Tags": {
     "Type": [

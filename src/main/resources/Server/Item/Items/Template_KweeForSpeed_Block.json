@@ -30,6 +30,23 @@
       "Drag": 0.99,
       "Friction": 0.15,
       "JumpForceMultiplier": 1.5
+    },
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "ApplyEffect",
+            "Effects": {},
+            "EffectId": {
+              "ApplicationEffects": {
+                "EntityAnimationId": "Roll"
+              },
+              "OverlapBehavior": "Overwrite"
+            },
+            "OnItemChangeBehavior": "Finish"
+          }
+        ]
+      }
     }
   },
   "Tags": {

@@ -109,7 +109,24 @@
       "JumpForceMultiplier": 1.5
     },
     "CubeShadingMode": "Flat",
-    "RequiresAlphaBlending": false
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "ApplyEffect",
+            "Effects": {},
+            "EffectId": {
+              "ApplicationEffects": {
+                "EntityAnimationId": "Roll"
+              },
+              "OverlapBehavior": "Overwrite"
+            },
+            "OnItemChangeBehavior": "Finish"
+          }
+        ]
+      }
+    }
   },
   "Tags": {
     "Type": [

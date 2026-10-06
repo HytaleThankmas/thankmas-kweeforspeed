@@ -99,6 +99,15 @@
           },
           "Additive": true,
           "RelativeMode": "HorizontalFacing"
+        },
+        {
+          "Type": "EntityEffect",
+          "Event": "TICK",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Effect": "Slide_Effect",
+          "Mode": "Apply",
+          "Duration": -1.0
         }
       ],
       "TargetTypes": [

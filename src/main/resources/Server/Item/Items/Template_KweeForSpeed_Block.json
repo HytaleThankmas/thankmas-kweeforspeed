@@ -11,7 +11,6 @@
     "Material": "Solid",
     "DrawType": "Cube",
     "Group": "Dev",
-    "HitboxType": "Full",
     "BlockParticleSetId": "Dust",
     "Textures": [
       {
@@ -29,30 +28,12 @@
       "HorizontalSpeedMultiplier": 1.75,
       "Drag": 0.999,
       "Friction": 0.025,
-      "JumpForceMultiplier": 1.5
-    },
-    "Interactions": {
-      "Collision": {
-        "Interactions": [
-          {
-            "Type": "ApplyEffect",
-            "Effects": {},
-            "EffectId": {
-              "OverlapBehavior": "Overwrite",
-              "Parent": "Slide_Effect",
-              "Duration": 0.5
-            },
-            "OnItemChangeBehavior": "Finish"
-          }
-        ],
-        "Cooldown": {
-          "Cooldown": 0.25
-        }
-      }
+      "JumpForceMultiplier": 0
     },
     "Tint": [
       "#5697ff"
-    ]
+    ],
+    "HitboxType": "Full"
   },
   "Tags": {
     "Type": [

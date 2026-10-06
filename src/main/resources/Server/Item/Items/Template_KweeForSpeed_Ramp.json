@@ -116,28 +116,11 @@
       "HorizontalSpeedMultiplier": 9.75,
       "Drag": 0.999,
       "Friction": 0.025,
-      "JumpForceMultiplier": 1.5,
+      "JumpForceMultiplier": 0,
       "DisableAutoStep": false
     },
     "HitboxType": "KweeForSpeed_Ramp_Hitbox",
     "CubeShadingMode": "Flat",
-    "Interactions": {
-      "CollisionEnter": {
-        "Interactions": [
-          {
-            "Type": "ApplyEffect",
-            "Effects": {},
-            "EffectId": {
-              "ApplicationEffects": {
-                "EntityAnimationId": "Roll"
-              },
-              "OverlapBehavior": "Overwrite"
-            },
-            "OnItemChangeBehavior": "Finish"
-          }
-        ]
-      }
-    },
     "Tint": [
       "#ffb64d"
     ]

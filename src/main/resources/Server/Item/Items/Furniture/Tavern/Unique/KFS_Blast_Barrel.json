@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "Blast Barrel"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "KweeForSpeed_Category.KweeForSpeed"
+  ],
+  "Set": "Furniture_Tavern",
+  "Icon": "Icons/ItemsGenerated/Furniture_Tavern_Barrel.png",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Items/Objects/Blast_Barrel_Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Objects/Blast_Barrel_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "Blast_Barrel_Hitbox",
+    "Material": "Empty",
+    "Opacity": "Transparent",
+    "ParticleColor": "#543022",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "TextureComputedColor": "#3D2719",
+    "Interactions": {
+      "CollisionEnter": {
+        "Parent": "Blast_Barrel_Interaction"
+      }
+    },
+    "Light": {
+      "Color": "#d90"
+    },
+    "Support": {
+      "All": [
+        {
+          "MatchSelf": "Ignored",
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "CustomModelScale": 1.5,
+    "FlipType": "Symmetric",
+    "VariantRotation": "NESW",
+    "Supporting": {
+      "All": []
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Tavern"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

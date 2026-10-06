@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Template Shallow"
+    "Name": "Template Steep"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Template_KweeForSpeed_Shallow.png",
+  "Icon": "Icons/ItemsGenerated/Template_KweeForSpeed_Steep.png",
   "Categories": [
     "KweeForSpeed_Category.KweeForSpeed"
   ],
@@ -13,15 +13,14 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Items/Blocks/Test_Shallow_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Test_Shallow_Texture.png",
+        "Texture": "Items/Blocks/Test_Steep_Texture.png",
         "Weight": 1
       }
     ],
     "Group": "Roof",
-    "HitboxType": "KweeForSpeed_Shallow_Hitbox",
+    "HitboxType": "Steep_Hitbox",
     "VariantRotation": "UpDownNESW",
     "BlockParticleSetId": "Dust",
     "Supporting": {
@@ -38,8 +37,8 @@
     "State": {
       "Definitions": {
         "Corner_Right": {
-          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Shallow_Corner_Right.blockymodel",
-          "HitboxType": "Roof_Corner_Shallow_Right",
+          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Steep_Corner_Right.blockymodel",
+          "HitboxType": "Stairs_Corner_Steep_Right",
           "FlipType": "Orthogonal",
           "Supporting": {
             "Down": [
@@ -48,8 +47,8 @@
           }
         },
         "Corner_Left": {
-          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Shallow_Corner_Left.blockymodel",
-          "HitboxType": "Roof_Corner_Shallow_Left",
+          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Steep_Corner_Left.blockymodel",
+          "HitboxType": "Stairs_Corner_Steep_Left",
           "FlipType": "Orthogonal",
           "Supporting": {
             "Down": [
@@ -58,8 +57,8 @@
           }
         },
         "Inverted_Corner_Right": {
-          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Shallow_Corner_Inverted_Right.blockymodel",
-          "HitboxType": "Roof_Corner_Shallow_Inverted_Right",
+          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Steep_Corner_Inverted_Right.blockymodel",
+          "HitboxType": "Roof_Corner_Steep_Inverted_Right",
           "FlipType": "Orthogonal",
           "Supporting": {
             "Down": [
@@ -68,8 +67,8 @@
           }
         },
         "Inverted_Corner_Left": {
-          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Shallow_Corner_Inverted_Left.blockymodel",
-          "HitboxType": "Roof_Corner_Shallow_Inverted_Left",
+          "CustomModel": "Blocks/Structures/Roofs/Dev_Roof_Steep_Corner_Inverted_Left.blockymodel",
+          "HitboxType": "Roof_Corner_Steep_Inverted_Left",
           "FlipType": "Orthogonal",
           "Supporting": {
             "Down": [
@@ -81,7 +80,6 @@
     },
     "ConnectedBlockRuleSet": {
       "Type": "Roof",
-      "Width": 2,
       "Regular": {
         "Straight": {
           "State": "default"
@@ -99,7 +97,7 @@
           "State": "Inverted_Corner_Left"
         }
       },
-      "MaterialName": "Roof_Shallow"
+      "MaterialName": "Roof_Steep"
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
@@ -110,8 +108,9 @@
       "DisableAutoStep": false
     },
     "CubeShadingMode": "Flat",
+    "CustomModel": "Items/Blocks/Test_Steep_Model.blockymodel",
     "Tint": [
-      "#fdff7a"
+      "#ff6969"
     ]
   },
   "Tags": {
@@ -128,15 +127,15 @@
   "Quality": "Technical",
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "IconProperties": {
-    "Scale": 0.45,
+    "Scale": 0.4,
     "Rotation": [
-      22.5,
-      45,
+      16,
+      47,
       22.5
     ],
     "Translation": [
-      11.1,
-      -22.5
+      5,
+      -29
     ]
   },
   "Scale": 0.6

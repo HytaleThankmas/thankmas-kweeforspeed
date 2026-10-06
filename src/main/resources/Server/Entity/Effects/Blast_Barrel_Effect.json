@@ -1,0 +1,10 @@
+{
+  "ApplicationEffects": {
+    "EntityAnimationId": "KFS_Slide",
+    "HorizontalSpeedMultiplier": 1.5,
+    "MovementEffects": {
+      "DisableJump": true
+    }
+  },
+  "OverlapBehavior": "Overwrite"
+}

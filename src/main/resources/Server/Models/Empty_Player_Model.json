@@ -68,7 +68,8 @@
   },
   "Camera": {
     "PositionOffset": {
-      "Z": 5
+      "Z": 7.5,
+      "Y": 1.5
     },
     "Yaw": {
       "TargetNodes": [

@@ -101,7 +101,7 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 9.75,
+      "HorizontalSpeedMultiplier": 3.5,
       "Drag": 0.999,
       "Friction": 0.025,
       "JumpForceMultiplier": 0,

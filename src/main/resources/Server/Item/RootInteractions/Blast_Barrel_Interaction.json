@@ -34,18 +34,10 @@
             {
               "Type": "ApplyEffect",
               "EffectId": {
-                "ApplicationEffects": {
-                  "MovementEffects": {
-                    "DisableAll": true
-                  }
-                },
-                "ModelChange": "Empty_Player_Model",
                 "Duration": 1,
-                "DamageEffects": {}
+                "ModelChange": "Empty_Player_Model"
               },
-              "Effects": {
-                "HideFirstPersonHeldItem": true
-              }
+              "OnItemChangeBehavior": "Finish"
             }
           ]
         },
@@ -64,11 +56,38 @@
               "AdjustVertical": true
             }
           ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "Simple",
+              "RunTime": 1,
+              "Next": {
+                "Type": "Simple",
+                "Effects": {
+                  "Particles": [
+                    {
+                      "SystemId": "Blast_Barrel_Particles",
+                      "DetachedFromModel": true,
+                      "PositionOffset": {
+                        "Z": 1.5
+                      },
+                      "TargetEntityPart": "Entity",
+                      "Scale": 1.5
+                    }
+                  ],
+                  "WorldSoundEventId": "Blast_Barrel_SFX",
+                  "LocalSoundEventId": "Blast_Barrel_SFX",
+                  "ItemAnimationId": "Roll"
+                }
+              }
+            }
+          ]
         }
       ]
     }
   ],
   "Cooldown": {
-    "Cooldown": 1.5
+    "Cooldown": 1.25
   }
 }

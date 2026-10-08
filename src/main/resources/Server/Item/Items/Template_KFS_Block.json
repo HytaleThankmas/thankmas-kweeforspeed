@@ -27,8 +27,7 @@
     "MovementSettings": {
       "HorizontalSpeedMultiplier": 1.75,
       "Drag": 0.999,
-      "Friction": 0.025,
-      "JumpForceMultiplier": 0
+      "Friction": 0.025
     },
     "Tint": [
       "#5697ff"

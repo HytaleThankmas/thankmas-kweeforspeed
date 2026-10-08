@@ -1,0 +1,121 @@
+{
+  "TranslationProperties": {
+    "Name": "Blast Barrel"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "KweeForSpeed_Category.KweeForSpeed"
+  ],
+  "Icon": "Icons/ItemsGenerated/KFS_Boost_Pad.png",
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "CustomModel": "Items/Objects/Boost_Pad_Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Objects/Boost_Pad_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "Boost_Pad_Hitbox",
+    "Material": "Empty",
+    "Opacity": "Transparent",
+    "ParticleColor": "#fbff00",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "Light": {
+      "Color": "#c90"
+    },
+    "Support": {
+      "All": [
+        {
+          "MatchSelf": "Ignored",
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "FlipType": "Symmetric",
+    "VariantRotation": "NESW",
+    "Supporting": {
+      "All": []
+    },
+    "State": {
+      "Definitions": {
+        "Inflate": {
+          "CustomModelAnimation": "Items/Objects/Blast_Barrel_Inflate.blockyanim",
+          "Light": {
+            "Color": "#f00"
+          }
+        },
+        "Inflate2": {
+          "CustomModelAnimation": "Items/Objects/Blast_Barrel_Inflate.blockyanim",
+          "Light": {
+            "Color": "#f00"
+          }
+        }
+      }
+    },
+    "Interactions": {
+      "Collision": {
+        "Interactions": [
+          {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "Duration": 1.5,
+              "OverlapBehavior": "Overwrite",
+              "ApplicationEffects": {
+                "HorizontalSpeedMultiplier": 1.5,
+                "ScreenEffect": "ScreenEffects/Boost_ScreenEffect.png",
+                "EntityBottomTint": "#f2ff00",
+                "LocalSoundEventId": "SFX_Daggers_T1_Pounce_Local",
+                "WorldSoundEventId": "SFX_Daggers_T1_Pounce"
+              }
+            }
+          }
+        ]
+      },
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "ApplyForce",
+            "Direction": {
+              "Z": -1
+            },
+            "Force": 5,
+            "AdjustVertical": true,
+            "ChangeVelocityType": "Add",
+            "RaycastMode": "FollowLook"
+          }
+        ]
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Boost_Pad_Particles"
+      }
+    ],
+    "TextureComputedColor": "#fbff00",
+    "CubeShadingMode": "Fullbright"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Tavern"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      90,
+      0,
+      0
+    ],
+    "Translation": [
+      -18,
+      14
+    ]
+  }
+}

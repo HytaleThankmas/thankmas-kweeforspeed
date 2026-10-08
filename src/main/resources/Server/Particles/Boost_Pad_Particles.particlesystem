@@ -1,0 +1,16 @@
+{
+  "IsImportant": true,
+  "CullDistance": 75,
+  "Spawners": [
+    {
+      "SpawnerId": "Boost_Pad_Particles_Sub",
+      "PositionOffset": {
+        "Y": 0.15,
+        "Z": 0.55
+      },
+      "RotationOffset": {
+        "Yaw": -90
+      }
+    }
+  ]
+}

@@ -30,9 +30,6 @@
         "Parent": "Blast_Barrel_Interaction"
       }
     },
-    "Light": {
-      "Color": "#d90"
-    },
     "Support": {
       "All": [
         {
@@ -46,6 +43,16 @@
     "VariantRotation": "NESW",
     "Supporting": {
       "All": []
+    },
+    "State": {
+      "Definitions": {
+        "Inflate": {
+          "CustomModelAnimation": "Items/Objects/Blast_Barrel_Inflate.blockyanim"
+        },
+        "Inflate2": {
+          "CustomModelAnimation": "Items/Objects/Blast_Barrel_Inflate.blockyanim"
+        }
+      }
     }
   },
   "Tags": {

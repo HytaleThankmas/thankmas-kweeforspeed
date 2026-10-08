@@ -24,7 +24,21 @@
                   "OverlayFadeInPerSecond": 0,
                   "OverlayFadeOutPerSecond": 0,
                   "LodMultiplier": 0
-                }
+                },
+                "LocalSoundEventId": "Blast_Barrel_Collision_SFX",
+                "Particles": [
+                  {
+                    "SystemId": "Block_Hit_Metal",
+                    "Scale": 3,
+                    "Color": "#ffffff",
+                    "TargetEntityPart": "Entity",
+                    "PositionOffset": {
+                      "Y": 1.5
+                    },
+                    "DetachedFromModel": true
+                  }
+                ],
+                "WorldSoundEventId": "Blast_Barrel_Collision_SFX"
               }
             }
           ]
@@ -35,7 +49,12 @@
               "Type": "ApplyEffect",
               "EffectId": {
                 "Duration": 1,
-                "ModelChange": "Empty_Player_Model"
+                "ModelChange": "Empty_Player_Model",
+                "ApplicationEffects": {
+                  "MovementEffects": {
+                    "DisableAll": true
+                  }
+                }
               },
               "OnItemChangeBehavior": "Finish"
             }
@@ -45,14 +64,13 @@
           "Interactions": [
             {
               "Type": "ApplyForce",
-              "Force": 27.5,
+              "Force": 35,
               "Direction": {
                 "Y": 1,
-                "Z": -2,
-                "X": 0
+                "X": 0,
+                "Z": -2
               },
-              "RaycastMode": "FollowMotion",
-              "Duration": 1.1,
+              "Duration": 1.15,
               "AdjustVertical": true
             }
           ]
@@ -60,8 +78,22 @@
         {
           "Interactions": [
             {
+              "Type": "ChangeState",
+              "Changes": {
+                "default": "Inflate",
+                "Inflate": "Inflate2",
+                "Inflate2": "Inflate"
+              },
+              "UpdateBlockState": true,
+              "OnItemChangeBehavior": "Finish"
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
               "Type": "Simple",
-              "RunTime": 1,
+              "RunTime": 1.07,
               "Next": {
                 "Type": "Simple",
                 "Effects": {
@@ -76,8 +108,8 @@
                       "Scale": 1.5
                     }
                   ],
-                  "WorldSoundEventId": "Blast_Barrel_SFX",
-                  "LocalSoundEventId": "Blast_Barrel_SFX",
+                  "WorldSoundEventId": "Blast_Barrel_Expulsion_SFX",
+                  "LocalSoundEventId": "Blast_Barrel_Expulsion_SFX",
                   "ItemAnimationId": "Roll"
                 }
               }

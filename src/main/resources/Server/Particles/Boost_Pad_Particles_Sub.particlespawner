@@ -1,0 +1,100 @@
+{
+  "Particle": {
+    "Texture": "Particles/Boost_Pad_Particles_Texture.png",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.4,
+          "Max": 0.4
+        },
+        "Y": {
+          "Max": 0.4,
+          "Min": 0.4
+        }
+      },
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        }
+      },
+      "Color": "#ff7b00"
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          }
+        }
+      },
+      "25": {
+        "Opacity": 1,
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      },
+      "85": {
+        "Opacity": 1,
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          }
+        }
+      }
+    }
+  },
+  "Attractors": [
+    {
+      "LinearImpulse": {
+        "X": -2
+      }
+    }
+  ],
+  "ParticleLifeSpan": {
+    "Min": 0.75,
+    "Max": 0.75
+  },
+  "Shape": "Sphere",
+  "UseEmitDirection": true,
+  "ParticleRotateWithSpawner": true,
+  "ParticleRotationInfluence": "None",
+  "IsLowRes": false,
+  "WaveDelay": {
+    "Min": 0.35,
+    "Max": 0.35
+  },
+  "SpawnBurst": true,
+  "RenderMode": "Erosion"
+}

@@ -13,10 +13,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Items/Blocks/Test_Shallow_Model.blockymodel",
+    "CustomModel": "Items/Blocks/Shallow_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Test_Shallow_Texture.png",
+        "Texture": "Items/Blocks/Shallow_Texture.png",
         "Weight": 1
       }
     ],
@@ -103,10 +103,9 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 3.5,
+      "HorizontalSpeedMultiplier": 2.75,
       "Drag": 0.999,
       "Friction": 0.025,
-      "JumpForceMultiplier": 0,
       "DisableAutoStep": false
     },
     "CubeShadingMode": "Flat",

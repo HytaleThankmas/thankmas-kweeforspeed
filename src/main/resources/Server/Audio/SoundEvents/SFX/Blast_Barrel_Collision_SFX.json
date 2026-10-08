@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Projectiles/Fireball/FireballBounce_1.ogg"
+        "Sounds/Blocks/Wood/Wood_Hit_01.ogg"
       ],
       "RandomSettings": {
         "MinPitch": -1.8240371213405997,

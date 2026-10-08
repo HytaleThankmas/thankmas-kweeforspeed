@@ -15,8 +15,8 @@
     "DrawType": "Model",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Test_Steep_Texture.png",
-        "Weight": 1
+        "Weight": 1,
+        "Texture": "Items/Blocks/Steep_Texture.png"
       }
     ],
     "Group": "Roof",
@@ -101,14 +101,13 @@
     },
     "TextureComputedColor": "#E2EDF2",
     "MovementSettings": {
-      "HorizontalSpeedMultiplier": 3.5,
+      "HorizontalSpeedMultiplier": 2.75,
       "Drag": 0.999,
       "Friction": 0.025,
-      "JumpForceMultiplier": 0,
       "DisableAutoStep": false
     },
     "CubeShadingMode": "Flat",
-    "CustomModel": "Items/Blocks/Test_Steep_Model.blockymodel",
+    "CustomModel": "Items/Blocks/Steep_Model.blockymodel",
     "Tint": [
       "#ff6969"
     ]

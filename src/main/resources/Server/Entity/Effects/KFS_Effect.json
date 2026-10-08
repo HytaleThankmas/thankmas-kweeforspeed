@@ -1,0 +1,10 @@
+{
+  "ApplicationEffects": {
+    "MovementEffects": {
+      "DisableCrouch": true
+    }
+  },
+  "OverlapBehavior": "Overwrite",
+  "Infinite": true,
+  "StatusEffectIcon": "testttstt"
+}
